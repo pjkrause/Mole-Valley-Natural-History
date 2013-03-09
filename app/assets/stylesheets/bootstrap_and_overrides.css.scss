@@ -1,0 +1,13 @@
+/* bootsrap_and_overrides.css.scss
+*/
+
+@import "bootstrap";
+body { padding-top: 60px; }
+@import "bootstrap-responsive";
+
+.navbar-inner {
+  background-color: #00CC00;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
