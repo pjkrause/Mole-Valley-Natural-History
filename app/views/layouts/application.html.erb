@@ -12,10 +12,12 @@
     <section id="main" role="main">
       <%= render 'layouts/header' %>
       <%= render 'layouts/navigation' %>
+      
       <article class="container">
         <%= yield %>
       </article>
-      
+
+      <%= render 'layouts/footer' %>
 
     </section>
 
