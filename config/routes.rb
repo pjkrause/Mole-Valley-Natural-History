@@ -15,6 +15,8 @@ MVNHWebSiteV2::Application.routes.draw do
 
   match 'butterflies' => 'core#butterflies'
 
+  match 'dragonflies' => 'core#dragonflies'
+
   match 'fungi' => 'core#fungi'
 
   match 'moths' => 'core#moths'

@@ -31,6 +31,10 @@ class CoreController < ApplicationController
     @title = "Butterflies"
   end
 
+  def dragonflies
+    @title = "Dragonflies and Damselflies"
+  end
+
   def fungi
     @title = "Fungi"
   end
