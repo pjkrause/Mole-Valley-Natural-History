@@ -40,10 +40,10 @@ class CoreController < ApplicationController
   end
 
   def moths
-    @title = ""
+    @title = "Moths"
   end
 
   def plants
-    @title = ""
+    @title = "Plants"
   end
 end
